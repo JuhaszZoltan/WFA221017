@@ -23,15 +23,10 @@ namespace WFA221017
                 red: rnd.Next(256),
                 green: rnd.Next(256),
                 blue: rnd.Next(256));
-
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-
-            
-            
             MessageBox.Show("You Win!");
             counter = 0;
             clicked++;
